@@ -1,0 +1,14 @@
+E:\benchmatrix\Training Task\BookLinqLab\bin\Debug\net9.0\BookLinqLab.exe
+E:\benchmatrix\Training Task\BookLinqLab\bin\Debug\net9.0\BookLinqLab.deps.json
+E:\benchmatrix\Training Task\BookLinqLab\bin\Debug\net9.0\BookLinqLab.runtimeconfig.json
+E:\benchmatrix\Training Task\BookLinqLab\bin\Debug\net9.0\BookLinqLab.dll
+E:\benchmatrix\Training Task\BookLinqLab\bin\Debug\net9.0\BookLinqLab.pdb
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.GeneratedMSBuildEditorConfig.editorconfig
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.AssemblyInfoInputs.cache
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.AssemblyInfo.cs
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.csproj.CoreCompileInputs.cache
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.dll
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\refint\BookLinqLab.dll
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.pdb
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.genruntimeconfig.cache
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\ref\BookLinqLab.dll
