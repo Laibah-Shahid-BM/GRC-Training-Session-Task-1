@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookLinqLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c874831f799974216ab4f27864e3ab52a2037c48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99001f3320199a3d3b3bd2d02e55a8a30190696f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookLinqLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookLinqLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\refint\BookLinqLab.dll
 E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.pdb
 E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.genruntimeconfig.cache
 E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\ref\BookLinqLab.dll
+E:\benchmatrix\Training Task\BookLinqLab\obj\Debug\net9.0\BookLinqLab.sourcelink.json

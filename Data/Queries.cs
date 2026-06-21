@@ -17,7 +17,8 @@ public static class Queries
         var groups = InMemoryStore.Books.GroupBy(b => b.AuthorId);
         foreach (var g in groups)
         {
-            var authorName = InMemoryStore.Authors.First(a => a.Id == g.Key).Name;
+            var author = InMemoryStore.Authors.FirstOrDefault(a => a.Id == g.Key);
+            var authorName = author?.Name ?? "Unknown Author";
             Console.WriteLine($"{authorName}: {g.Count()} book(s)");
         }
     }

@@ -97,7 +97,8 @@ ORDER BY EmployeeCount DESC;
 SELECT e.FullName, d.DeptName, e.HireDate
 FROM Employees e
 LEFT JOIN Departments d ON e.DeptId = d.DeptId
-WHERE NOT EXISTS (SELECT 1 FROM ProjectAssignments pa WHERE pa.EmpId = e.EmpId);
+left join ProjectAssignments pa on e.EmpId = pa.EmpId
+WHERE pa.AssignmentId is null; 
 
 -- TASK 4 — Department salary summary
 SELECT d.DeptName,
@@ -171,7 +172,7 @@ SELECT FullName, fn_annual_salary(EmpId) AS AnnualSalary FROM Employees;
 
 -- TASK 10 — "Department employee list" for ALL departments
 
-CREATE OR REPLACE VIEW vw_dept_employees AS
+CREATE VIEW vw_dept_employees AS
 SELECT d.DeptId, d.DeptName, e.EmpId, e.FullName,
        fn_annual_salary(e.EmpId)  AS AnnualSalary,
        fn_get_emp_tenure(e.EmpId) AS TenureYears
@@ -194,7 +195,7 @@ ORDER BY d.DeptName, f.FullName;
 
 -- TASK 11 — Stored procedure: dept salary report
 -- Returns a result set AND scalar values via OUT params.
--- Uses fn_annual_salary so totals are correctly normalized (fixes Task 4).
+-- Uses fn_annual_salary so totals are correctly normalized.
 DELIMITER //
 CREATE PROCEDURE sp_dept_salary_report(
     IN  p_dept   INT,
@@ -266,4 +267,3 @@ CALL sp_give_raise(1, 10);
 SELECT e.FullName, s.Amount, s.SalaryType
 FROM Employees e JOIN Salaries s ON e.EmpId = s.EmpId
 WHERE e.DeptId = 1;
-
